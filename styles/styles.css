@@ -1,0 +1,290 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    line-height: 140%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 1280px;
+    height: 96px;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: center;
+
+}
+
+header {
+    background-image: url(../images/hojasatenuadas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+header p {
+    text-align: center;
+    text-shadow: #474747 4px 0 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+span {
+    font-weight: 600;
+}
+
+header img {
+    height: 572px;
+    width: 709px;
+
+
+}
+
+#hello {
+    font-size: 96px;
+    line-height: 126.72px;
+    text-shadow: #474747 4px 0 10px
+}
+
+.presentation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 32px;
+    justify-content: center;
+    line-height: 200%;
+}
+
+
+h2 {
+    line-height: 52.8px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+h3 {
+    line-height: 42.24px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.projects h2 {
+    text-decoration: underline;
+}
+
+.myself h2 {
+    text-decoration: underline;
+}
+
+
+button {
+    height: 56px;
+    width: 318px;
+    left: 122px;
+    top: 624px;
+    border-radius: 4px;
+    color: black;
+
+
+
+}
+
+.myself {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 580px;
+    gap: 104px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 110px;
+    padding-top: 112px;
+
+
+
+
+}
+
+.tips {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.rules,
+.theway,
+.skills {
+    display: flex;
+    width: 70%;
+    gap: 24px;
+    justify-content: center;
+}
+
+ul {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 32px;
+
+}
+
+
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 36px;
+    text-align: center;
+    align-items: center;
+    gap: 36px;
+
+
+}
+
+#projectimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#project {
+    width: 490px;
+    height: 339px;
+}
+
+.projectimage {
+    display: flex;
+    height: 537px;
+    width: 490px;
+    left: 36px;
+    top: 124px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 32px;
+    gap: 48px;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#phrase {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+footer {
+    background-color: #EEEEEE;
+
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    header {
+        flex-direction: column-reverse;
+    }
+
+
+    .tips {
+        flex-direction: column;
+        justify-content: center;
+        gap: 64px;
+        text-align: center;
+    }
+
+    .rules,
+    .theway,
+    .skills {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .tips {
+            flex-direction: column;
+            justify-content: center;
+            gap: 64px;
+            text-align: center;
+        }
+
+        .rules,
+        .theway,
+        .skills {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .card{
+            width: 100%;
+            justify-content: center;
+        }
+
+    }
